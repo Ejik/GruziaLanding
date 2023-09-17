@@ -1,8 +1,15 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Tour Test'
+baseURL = 'https://turvgeorgia.ru/'
+languageCode = 'ru-RU'
+title = 'Тур В Грузию в женской компании'
+Copyright = 'Copyright В© 2023, Copyright Pola_go'
+
+[params]
+    vk = 1
+    twitter = 1
 
 [params.SSV]
     background = "background-image: url(../img/mountains.jpg);"
     color = "url(../img/mountains.jpg);"
     red = "red"
+
+    

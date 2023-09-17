@@ -1,21 +1,83 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+a{
+	color: #FFFFFF;
+	text-decoration: none !important;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+  }
+
 .HeroBtn{
-    padding: 30px 60px 30px 60px; 
-    background-color:#c21b1b; 
+    padding: 15px 60px 15px 60px; 
+    background-color:#b81a1a; 
     border-radius:40px; 
     color:#ffffff; 
     font-family: Fira Sans;
     display: flex;
     width: min-content;
     text-align: center;
-    margin: 60px auto 0px auto;
+    margin: 60px auto 120px auto;
+    border-style: none;
+}
+
+.input-block
+{
+    margin-bottom: 35px;
+}
+
+.input-group
+{
+    display: block;
+    margin-bottom: 35px;
+}
+
+.input 
+{
+    border: 1px solid #d6d6d6;
+    height: 56px;
+    outline: none;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.input-bbonly
+{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-radius: 0 !important;
+}
+
+.form-input
+{
+    max-width: 560px;
+    margin: 0 auto;
 }
 
 body{
-    background-image: url(../img/mountains.jpg);
+    width: 100%;
+    background: linear-gradient(to top, rgba(2, 2, 3, 0.6), rgba(2, 2, 3, 0.6)), url(../img/mountains.jpg) no-repeat fixed center center;
+    background-size: cover;
 }
 
 .hero{
-
+    padding: 20px 0px;
+    height: 100vh;
 }
 
 h1{
@@ -24,7 +86,7 @@ h1{
     font-weight: 600;
     color:#ffffff; 
     text-align: center;
-    width: 770px;
+    width: auto;
     margin: 50px auto 0px auto;
     letter-spacing: 1px;
 }
@@ -38,4 +100,327 @@ h1{
     width: min-content;
     margin: 145px auto 0px auto;
     letter-spacing: 2px;
+}
+
+.container{
+
+}
+
+.section
+{
+    background-color: #ffffff;
+}
+
+.section--hello{
+    color: rgb(102, 102, 102);
+    font-size: 30px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 300;
+    padding: 50px 0px;
+}
+
+.section--hello .container p{
+    margin: 0px 0px 35px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.section--hello .container{
+    width: 800px;
+}
+
+.section--hello .container p img{
+    margin: 90px 0px;
+    width: 900px;
+}
+
+.section--hello .container ul{
+    list-style: none;
+}
+
+.section--PhotoList{
+    padding: 50px 0px 0px 0px !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.section--PhotoList ul{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section--PhotoList ul li{
+    position: relative;
+}
+
+.section--PhotoList ul li{
+    display: block;
+    content: '';
+    width: 25%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.section--PhotoList ul li img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.section--PhotoList ul li:hover{
+    transform-origin: center center;
+	transform: scale(1.03);
+	box-shadow: 4px 4px 15px rgba(35,31,31, 0.8);
+    z-index: 1;
+}
+
+.section--conditions{
+    margin-top: -16px;
+    background-color: #f0f0f0;
+    padding-top: 45px;
+    padding-bottom: 100px;
+    padding-right: 40px;
+}
+
+.section--conditions .container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section--conditions .container ul li{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    font-weight: 700;
+}
+
+.section--conditions .container ul li img{
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+}
+
+.section--conditions .container ul li ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.section--conditions .container ul li ul li{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+    width: 200px;
+    color: rgb(102, 102, 102);
+    font-size: 10px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 300;
+}
+
+.section--conditions .container p {
+    width: min-content;
+    margin: 200px auto 0px auto;
+    padding-left: 40px;
+
+    text-align: center;
+    color: rgb(31, 29, 29);
+    font-size: 11px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 500;
+}
+
+h2{
+    width: max-content;
+    margin: 30px auto 40px auto;
+    padding-left: 40px;
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.section--aboutOfTour{
+    margin-top: -16px;
+    background-color: #f0f0f0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 40px;
+}
+
+.section--aboutOfTour h3{
+    width: auto;
+    margin: 0px auto 0px auto;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.23;
+    font-family: 'Fira Sans',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+
+.section--aboutOfTour .container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section--aboutOfTour .container ul li:last-child{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    font-weight: 700;
+}
+
+.section--aboutOfTour .container ul li img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.section--aboutOfTour .container ul li ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.section--aboutOfTour .container ul li ul li{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+    width: 200px;
+    color: rgb(102, 102, 102);
+    font-size: 10px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 300;
+}
+
+.section--program{
+    color: rgb(102, 102, 102);
+    font-size: 30px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 50px 0px;
+    margin-top: -16px;
+}
+
+.section--program .container p{
+    margin: 0px 0px 35px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.section--program .container{
+    width: 800px;
+}
+
+.section--program h3{
+    width: auto;
+    margin: -34px auto 0px auto;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.23;
+    font-family: 'Fira Sans',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+
+.section--video 
+{
+    margin-top: -16px;
+    background-color: #f0f0f0;
+}
+
+.section--video p 
+{
+    margin: 0px 0px 35px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.section--prices 
+{
+    background-color: #f0f0f0;
+}
+
+.section--prices h1
+{
+    font-size: 60px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 600;
+    color: #000000; 
+    text-align: center;
+    width: auto;
+    margin: 50px auto 0px auto;
+    letter-spacing: 1px;
+}
+
+.section--prices h3
+{
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 300;
+    color: #000000; 
+    text-align: center;
+}
+
+.section--prices h4
+{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 14px;
+    font-family: 'Fira Sans',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+.section--prices  p
+{
+    font-family: 'Fira Sans',Arial,sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+.section--book 
+{
+    margin-top: -16px;
+    background-color: #f0f0f0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 40px;
+
+}
+
+.section--book h3
+{
+    width: auto;
+    margin: 0px auto 0px auto;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.23;
+    font-family: 'Fira Sans',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
 }

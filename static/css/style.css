@@ -7,8 +7,7 @@ html {
   *::after {
     box-sizing: inherit;
   }
-
-
+  
 a{
 	color: #FFFFFF;
 	text-decoration: none !important;
@@ -27,6 +26,47 @@ a{
     width: min-content;
     text-align: center;
     margin: 60px auto 120px auto;
+    border-style: none;
+}
+
+.input-block
+{
+    margin-bottom: 35px;
+}
+
+.input-group
+{
+    display: block;
+    margin-bottom: 35px;
+}
+
+.input 
+{
+    border: 1px solid #d6d6d6;
+    height: 56px;
+    outline: none;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.input-bbonly
+{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-radius: 0 !important;
+}
+
+.form-input
+{
+    max-width: 560px;
+    margin: 0 auto;
 }
 
 body{
@@ -34,6 +74,37 @@ body{
     background: linear-gradient(to top, rgba(2, 2, 3, 0.6), rgba(2, 2, 3, 0.6)), url(../img/mountains.jpg) no-repeat fixed center center;
     background-size: cover;
 }
+
+.copyright
+{
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+  font-size: smaller;
+  margin-top: 2em;
+  text-align: center;
+}
+
+
+.footer
+{
+    display: block;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    background-color: #000000;
+    color: rgb(113, 113, 113);
+    text-align: justify;
+}
+
+ul.social
+{
+    margin: 0; 
+    padding: 4px;
+}
+ ul.social li {
+    display: inline; 
+    margin-right: 5px; 
+    border: none;
+    padding: 3px;
+   }
 
 .hero{
     padding: 20px 0px;
@@ -66,7 +137,8 @@ h1{
 
 }
 
-.section{
+.section
+{
     background-color: #ffffff;
 }
 
@@ -135,7 +207,7 @@ h1{
     z-index: 1;
 }
 
-.section--prices{
+.section--conditions{
     margin-top: -16px;
     background-color: #f0f0f0;
     padding-top: 45px;
@@ -143,14 +215,14 @@ h1{
     padding-right: 40px;
 }
 
-.section--prices .container ul{
+.section--conditions .container ul{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.section--prices .container ul li{
+.section--conditions .container ul li{
     display: flex;
     flex-direction: column;
 
@@ -159,18 +231,18 @@ h1{
     font-weight: 700;
 }
 
-.section--prices .container ul li img{
+.section--conditions .container ul li img{
     object-fit: cover;
     width: 70px;
     height: 70px;
 }
 
-.section--prices .container ul li ul{
+.section--conditions .container ul li ul{
     list-style: none;
     padding: 0px;
 }
 
-.section--prices .container ul li ul li{
+.section--conditions .container ul li ul li{
     display: flex;
     flex-direction: column;
 
@@ -184,7 +256,7 @@ h1{
     font-weight: 300;
 }
 
-.section--prices .container p {
+.section--conditions .container p {
     width: min-content;
     margin: 200px auto 0px auto;
     padding-left: 40px;
@@ -247,8 +319,8 @@ h2{
 
 .section--aboutOfTour .container ul li img{
     object-fit: cover;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
 
 .section--aboutOfTour .container ul li ul{
@@ -268,4 +340,118 @@ h2{
     font-size: 10px;
     font-family: Fira Sans,Arial,sans-serif;
     font-weight: 300;
+}
+
+.section--program{
+    color: rgb(102, 102, 102);
+    font-size: 30px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 50px 0px;
+    margin-top: -16px;
+}
+
+.section--program .container p{
+    margin: 0px 0px 35px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.section--program .container{
+    width: 800px;
+}
+
+.section--program h3{
+    width: auto;
+    margin: -34px auto 0px auto;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.23;
+    font-family: 'Fira Sans',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+
+.section--video 
+{
+    margin-top: -16px;
+    background-color: #f0f0f0;
+}
+
+.section--video p 
+{
+    margin: 0px 0px 35px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.section--prices 
+{
+    background-color: #f0f0f0;
+}
+
+.section--prices h1
+{
+    font-size: 60px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 600;
+    color: #000000; 
+    text-align: center;
+    width: auto;
+    margin: 50px auto 0px auto;
+    letter-spacing: 1px;
+}
+
+.section--prices h3
+{
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 300;
+    color: #000000; 
+    text-align: center;
+}
+
+.section--prices h4
+{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 14px;
+    font-family: 'Fira Sans',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+.section--prices  p
+{
+    font-family: 'Fira Sans',Arial,sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+.section--book 
+{
+    margin-top: -16px;
+    background-color: #f0f0f0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 40px;
+
+}
+
+.section--book h3
+{
+    width: auto;
+    margin: 0px auto 0px auto;
+    padding-left: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.23;
+    font-family: 'Fira Sans',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
 }

@@ -1,0 +1,31 @@
+<div class="form-input">
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xbjvkkyv" method="post">
+  <div class="input-group">
+    <div class="input-block">
+      <input type="text" name="name" id="full-name" class="input input-bbonly" placeholder="Ваше имя" required>
+    </div>
+    <div class="input-block">
+      <input type="email" name="_replyto" id="email-address"  class="input input-bbonly" placeholder="Почта" required >
+    </div>
+    <div class="input-block">
+      <input type="text" name="tel" id="tel"  class="input input-bbonly" placeholder="Телефон" required>
+    </div>
+    <div class="input-block">
+    <textarea rows="6" name="message" id="message"  class="input input-bbonly" placeholder="Комментарий"></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="New sms">
+  </div>
+  <input type="submit" class="HeroBtn" value="Забронировать" >
+    {{ .Inner }}
+  </form>
+</div>
+ <div style="text-align: center;">
+  <ul class="social">
+    <li>
+      <a class="glyph" alt="Поделиться vk" href="vk.com/share.php?url=https://turvgrorgia.ru"><img src={{ "icons/vk.svg" | absURL }} height="24px" width="24px"></a>
+    </li>
+ 
+    <li>
+      <a class="glyph" alt="Поделиться в Twitter" href="https://twitter.com/intent/tweet?url=https://turvgorgia.ru&text=Тур В Грузию в женской компании"><img src={{ "icons/twitter.svg" | absURL }} height="24px" width="24px"></a>
+     </li>
+ </ul>
+</div>

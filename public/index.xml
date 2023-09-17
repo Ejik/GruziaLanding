@@ -1,29 +1,110 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tour Test</title>
-    <link>http://example.org/</link>
-    <description>Recent content on Tour Test</description>
+    <title>Тур В Грузию в женской компании</title>
+    <link>http://turvgeorgia.ru/</link>
+    <description>Recent content on Тур В Грузию в женской компании</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 May 2023 11:18:05 +0300</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 May 2023 11:18:05 +0300</lastBuildDate><atom:link href="http://turvgeorgia.ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello</title>
-      <link>http://example.org/section/hello/</link>
+      <title>10program</title>
+      <link>http://turvgeorgia.ru/section/program/</link>
       <pubDate>Thu, 18 May 2023 11:18:05 +0300</pubDate>
       
-      <guid>http://example.org/section/hello/</guid>
+      <guid>http://turvgeorgia.ru/section/program/</guid>
+      <description>Подробная программа тура 1 день
+Встреча в аэропорту Тбилиси
+Заселение в отель
+Обзорная экскурсия по Тбилиси
+Свободное время
+2 день
+Завтрак в отеле
+Выезд на экскурсию Джвари- Мцхета- Уплесцихе
+3 день
+Завтрак в отеле
+Выезд в Кахетию
+По дороге заедем за настоящей кахетинской чурчхеллой, посмотрим как пекут хлеб в печи тоне, возьмем свежий сыр, хлеб и помидоры на перекус. И конечно кахетинское домашнее ркацители.
+Посетим монастырь Бодбе
+город любви Сигнахи</description>
+    </item>
+    
+    <item>
+      <title>11video</title>
+      <link>http://turvgeorgia.ru/section/video/</link>
+      <pubDate>Thu, 18 May 2023 11:18:05 +0300</pubDate>
+      
+      <guid>http://turvgeorgia.ru/section/video/</guid>
+      <description>Посмотрите, видео о Грузии одного из путешественников:</description>
+    </item>
+    
+    <item>
+      <title>13prices</title>
+      <link>http://turvgeorgia.ru/section/prices/</link>
+      <pubDate>Thu, 18 May 2023 11:18:05 +0300</pubDate>
+      
+      <guid>http://turvgeorgia.ru/section/prices/</guid>
+      <description>Цены Стоимость: 50000 рублей Не включены авиабилеты Дополнительные расходы:
+Обеды в Тбилиси
+Ужины
+Личные покупки
+Мы рекомендуем взять с собой дополнительную сумму наличных, например, на сувениры.</description>
+    </item>
+    
+    <item>
+      <title>15book</title>
+      <link>http://turvgeorgia.ru/section/book/</link>
+      <pubDate>Thu, 18 May 2023 11:18:05 +0300</pubDate>
+      
+      <guid>http://turvgeorgia.ru/section/book/</guid>
+      <description>Забронируйте тур сейчас Предоплата за тур составляет $100 </description>
+    </item>
+    
+    <item>
+      <title>1Hello</title>
+      <link>http://turvgeorgia.ru/section/hello/</link>
+      <pubDate>Thu, 18 May 2023 11:18:05 +0300</pubDate>
+      
+      <guid>http://turvgeorgia.ru/section/hello/</guid>
       <description>Привет, любители приключений и настоящей грузинской кухни! Если вы готовы насладиться вкусом грузинского вина, забыть о проблемах и перезагрузиться, то мы знаем, куда вас отправить - в Кахетию!
-Кахетия - это регион, где солнце светит ярче, а вино течет рекой! Здесь вы сможете насладиться местными продуктами, побывать на ярмарках и рынках, и, конечно, увидеть множество древних монастырей и замков!</description>
+Кахетия - это регион, где солнце светит ярче, а вино течет рекой! Здесь вы сможете насладиться местными продуктами, побывать на ярмарках и рынках, и, конечно, увидеть множество древних монастырей и замков!
+В рамках нашего тура в Кахетию, мы предлагаем посетить самые красивые места и попробовать лучшие грузинские вина!</description>
+    </item>
+    
+    <item>
+      <title>2PhotoList</title>
+      <link>http://turvgeorgia.ru/section/photolist/</link>
+      <pubDate>Thu, 18 May 2023 11:18:05 +0300</pubDate>
+      
+      <guid>http://turvgeorgia.ru/section/photolist/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>3conditions</title>
+      <link>http://turvgeorgia.ru/section/conditions/</link>
+      <pubDate>Thu, 18 May 2023 11:18:05 +0300</pubDate>
+      
+      <guid>http://turvgeorgia.ru/section/conditions/</guid>
+      <description> 5 ночей По самым красивым местам Грузии с комфортом и хорошим настроением. 5 мест Увидим основные достопримечательности города Тбилиси и региона Кахетия и ещё множество потрясающих локаций по пути. $600 В цену включены трансферы, размещение в гостиницах, завтраки, обеды. </description>
+    </item>
+    
+    <item>
+      <title>9about_of_tour</title>
+      <link>http://turvgeorgia.ru/section/aboutoftour/</link>
+      <pubDate>Thu, 18 May 2023 11:18:05 +0300</pubDate>
+      
+      <guid>http://turvgeorgia.ru/section/aboutoftour/</guid>
+      <description>Детали тура Номера на 1 или 2 Мы останавливаемся в отелях с 3 и 4 звездами. Завтрак включен. Возраст: девушки 30-50 Наш тур подходит любому возрасту: и юным и опытным путешественницам. Предоплата 10 000 рублей Забронируйте тур и отмените бесплатно. Бронь будет нельзя отменить начиная с двух недель до поездки. Оставшуюся сумму можно оплатить уже в туре. </description>
     </item>
     
     <item>
       <title>Hero</title>
-      <link>http://example.org/hero/</link>
+      <link>http://turvgeorgia.ru/hero/</link>
       <pubDate>Thu, 18 May 2023 11:18:05 +0300</pubDate>
       
-      <guid>http://example.org/hero/</guid>
-      <description>POLA_GO_GEORGIA Винный тур в Кахетию в женской компании Поехали! </description>
+      <guid>http://turvgeorgia.ru/hero/</guid>
+      <description>POLA_GO_GEORGIA Винный тур в Кахетию в женской компании Поехали!</description>
     </item>
     
   </channel>
