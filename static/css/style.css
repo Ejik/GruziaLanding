@@ -439,7 +439,6 @@ h2{
     padding-top: 70px;
     padding-bottom: 70px;
     padding-right: 40px;
-
 }
 
 .section--book h3
@@ -454,4 +453,29 @@ h2{
     font-family: 'Fira Sans',Arial,sans-serif;
     font-weight: 600;
     color: #000000;
+}
+
+.section--aboutAuthor 
+{
+
+    margin-top: -16px;
+    background-color: #d9d9d9;
+    font-family: 'Fira Sans',Arial,sans-serif;
+    font-weight: 300;
+    color: #000000;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.section--aboutAuthor img
+{
+    float: left;
+    padding: 0 15px 15px 0;
+    width: 50%;
+}
+
+.section--aboutAuthor .container
+{
+    display: inline-block;
 }
