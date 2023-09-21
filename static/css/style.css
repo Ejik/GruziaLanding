@@ -407,16 +407,17 @@ h2{
 
 .section--prices h3
 {
+    padding-top: 50px;
     font-family: Fira Sans,Arial,sans-serif;
     font-weight: 300;
-    color: #000000; 
+    color: #000000;
     text-align: center;
+    padding-top: 40;
 }
 
 .section--prices h4
 {
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding-top: 50px;
     font-size: 14px;
     font-family: 'Fira Sans',Arial,sans-serif;
     font-weight: 600;
@@ -476,6 +477,28 @@ h2{
 }
 
 .section--aboutAuthor .container
+{
+    display: inline-block;
+}
+
+.section--route 
+{
+    margin-top: -16px;
+    color: #000000;
+    text-align: left;
+    font-size: 25px;
+    background-color: #d9d9d9;
+}
+
+.section--route img
+{
+    float: right;
+    padding: 0 15px 15px 0;
+    width: 50%;
+    height: 100%;
+}
+
+.section--route .container
 {
     display: inline-block;
 }
