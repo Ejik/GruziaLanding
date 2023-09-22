@@ -488,17 +488,24 @@ h2{
     text-align: left;
     font-size: 25px;
     background-color: #d9d9d9;
+    justify-content: center;
+    display: flex;
 }
 
 .section--route img
 {
     float: right;
     padding: 0 15px 15px 0;
-    width: 50%;
-    height: 100%;
+    width: 50%;    
+}
+
+.section--route p
+{
+    margin: 0 0 35px 0;
 }
 
 .section--route .container
 {
     display: inline-block;
+
 }

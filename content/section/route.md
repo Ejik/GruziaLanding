@@ -4,7 +4,6 @@ date: 2023-05-18T11:18:05+03:00
 draft: false
 Number_Section: 4
 ---
-
 ![Маршрут](img/route.png)
 
 ### Группа до 10 человек
