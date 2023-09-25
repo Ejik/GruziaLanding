@@ -134,7 +134,7 @@ h1{
 }
 
 .container{
-
+    
 }
 
 .section
@@ -169,8 +169,12 @@ h1{
     list-style: none;
 }
 
-.section--PhotoList{
-    padding: 50px 0px 0px 0px !important;
+.section--PhotoList .container{    
+    
+    width: 100%;
+}
+
+.section--PhotoList{    
     margin: 0px 0px 0px 0px !important;
 }
 
@@ -195,7 +199,7 @@ h1{
 
 .section--PhotoList ul li img{
     width: 100%;
-    height: 100%;
+    height: 366px;
     aspect-ratio: 1;
     object-fit: cover;
 }
