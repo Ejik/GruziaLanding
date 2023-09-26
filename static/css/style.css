@@ -229,7 +229,7 @@ h1{
 .section--conditions .container ul li{
     display: flex;
     flex-direction: column;
-
+    font-size: 24px;
     align-items: center;
 
     font-weight: 700;
@@ -237,8 +237,8 @@ h1{
 
 .section--conditions .container ul li img{
     object-fit: cover;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
 
 .section--conditions .container ul li ul{
@@ -249,13 +249,11 @@ h1{
 .section--conditions .container ul li ul li{
     display: flex;
     flex-direction: column;
-
     align-items: center;
-
     text-align: center;
     width: 200px;
     color: rgb(102, 102, 102);
-    font-size: 10px;
+    font-size: 16px;
     font-family: Fira Sans,Arial,sans-serif;
     font-weight: 300;
 }
@@ -298,7 +296,7 @@ h2{
     padding-left: 40px;
     margin-bottom: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 38px;
     line-height: 1.23;
     font-family: 'Fira Sans',Arial,sans-serif;
     font-weight: 600;
@@ -312,19 +310,20 @@ h2{
     justify-content: space-evenly;
 }
 
-.section--aboutOfTour .container ul li:last-child{
+.section--aboutOfTour .container ul li{
     display: flex;
     flex-direction: column;
-
+    font-family: 'Fira Sans',Arial,sans-serif;
     align-items: center;
-
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .section--aboutOfTour .container ul li img{
     object-fit: cover;
     width: 100px;
-    height: 100px;
+    height: auto;
+    max-width: 100%;
 }
 
 .section--aboutOfTour .container ul li ul{
@@ -335,13 +334,12 @@ h2{
 .section--aboutOfTour .container ul li ul li{
     display: flex;
     flex-direction: column;
-
     align-items: center;
-
+    font-weight: 600;
     text-align: center;
     width: 200px;
     color: rgb(102, 102, 102);
-    font-size: 10px;
+    font-size: 14px;
     font-family: Fira Sans,Arial,sans-serif;
     font-weight: 300;
 }
@@ -352,18 +350,19 @@ h2{
     font-family: Fira Sans,Arial,sans-serif;
     font-weight: 300;
     font-size: 18px;
-    padding: 50px 0px;
+    padding: 70px 0px;
     margin-top: -16px;
 }
 
 .section--program .container p{
     margin: 0px 0px 35px 0px;
     display: flex;
-    justify-content: center;
+    font-size: 18px;
 }
 
 .section--program .container{
     width: 800px;
+    text-align: left;
 }
 
 .section--program h3{
@@ -395,6 +394,10 @@ h2{
 .section--prices 
 {
     background-color: #f0f0f0;
+}
+
+.section--prices .container {
+    padding: 40px 0 40px 0;
 }
 
 .section--prices h1
@@ -476,8 +479,9 @@ h2{
 .section--aboutAuthor img
 {
     float: left;
-    padding: 0 15px 15px 0;
+    padding: 0 15px 15px 15px;
     width: 50%;
+    margin-left: -15px;
 }
 
 .section--aboutAuthor .container
@@ -512,4 +516,91 @@ h2{
 {
     display: inline-block;
 
+}
+
+.section--reasons 
+{
+    background-color: #f0f0f0;
+    padding: 40px 0 40px 0;
+}
+
+.section--reasons h1
+{
+    font-size: 60px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 600;
+    color: #000000; 
+    text-align: center;
+    width: auto;
+    margin: 50px auto 0px auto;
+    letter-spacing: 1px;
+}
+
+.section--reasons h3
+{
+    padding-top: 50px;
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    padding-top: 40;
+}
+
+.section--reasons h4
+{
+    padding-top: 50px;
+    font-size: 14px;
+    font-family: 'Fira Sans',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+.section--reasons p
+{
+    font-size: 22px;
+    text-align: center;
+}
+
+.section--reasonone, .section--reasontwo, .section--reasonthree 
+{
+    padding-top: 60px;
+    background-color: #f0f0f0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/DSC03059-min.jpg") no-repeat;
+    background-size: cover;
+    height: 922px;
+}
+
+.section--reasontwo {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/reason2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.section--reasonthree{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/reason3.jpg") no-repeat center;
+    background-size: cover; 
+}
+
+.section--reasonone .container, .section--reasontwo .container, .section--reasonthree .container{
+    display: block;
+    margin-top: 15%;
+    background-color: #fff;
+    padding: 60px;
+}
+
+
+.section--reasonone h1, .section--reasontwo h1, .section--reasonthree h1 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+}
+
+.section--reasonone p, .section--reasontwo p, .section--reasonthree p{
+    font-family: Fira Sans,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: left;
+    padding: 20px 0 20px 0;
 }
