@@ -171,7 +171,9 @@ h1{
 
 .section--PhotoList .container{    
     
-    width: 100%;
+    max-width: fit-content !important;
+    margin-bottom: -16px;
+    padding: 0px;
 }
 
 .section--PhotoList{    
@@ -179,15 +181,12 @@ h1{
 }
 
 .section--PhotoList ul{
-    padding: 0px;
+    padding: 0px;    
     list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.section--PhotoList ul li{
-    position: relative;
+    overflow: hidden;    
 }
 
 .section--PhotoList ul li{
@@ -195,13 +194,14 @@ h1{
     content: '';
     width: 25%;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    
 }
 
 .section--PhotoList ul li img{
-    width: 100%;
-    height: 366px;
+    width: 100%;    
     aspect-ratio: 1;
-    object-fit: cover;
+    object-fit: cover;   
 }
 
 .section--PhotoList ul li:hover{
